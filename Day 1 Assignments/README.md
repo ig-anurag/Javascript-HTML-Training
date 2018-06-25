@@ -57,3 +57,6 @@ Result      Description             Entity Name
     * background-repeat
     * background-attachment
     * background-position
+
+## Asignment
+- Create and style a game help file.
