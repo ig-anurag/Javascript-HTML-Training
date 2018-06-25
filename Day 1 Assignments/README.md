@@ -43,7 +43,7 @@ Result      Description             Entity Name
 - Why CSS came in to picture.
 - css syntax
 - style tags
-- Linking external css files - <link rel="stylesheet" type="text/css" href="mystyle.css">
+- Linking external css files - `<link rel="stylesheet" type="text/css" href="mystyle.css">`
 - Cascading Order
 - CSS colors:
     * `<h1 style="background-color:rgb(255, 99, 71);">...</h1>`
