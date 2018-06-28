@@ -10,6 +10,6 @@
 - Operators
 - strict equality
 
-## Asignment
+## Assignment
 - Continue assignment of Day 1.
 - upload code to GitHub.

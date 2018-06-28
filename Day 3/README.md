@@ -23,6 +23,6 @@
 - deep cloning
 - checking for equality
 
-## Asignment
+## Assignment
 1. Create a function to check if a property exists in a given object.
 2. Create a function to check if two given objects have same properties.

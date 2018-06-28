@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Moving Div</title>
+    <style>
+        #redDiv {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            background-color: red;
+            top: 0px;
+            left: 0px;
+        }
+
+        #startButton {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+    </style>
+
+    <script>
+        function startMovingFromLeft() {
+            let redDiv = document.getElementById("redDiv");
+            let leftPos = 0;
+            let intervalId = setInterval(function () {
+                if (leftPos < window.innerWidth - 100) {
+                    redDiv.style.left = leftPos + "px";
+                    leftPos += 5;
+                } else {
+                    clearInterval(intervalId);
+                }
+            }, 10);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="redDiv"></div>
+    <button id="startButton" onclick="startMovingFromLeft()">Click Me!</button>
+</body>
+
+</html>
